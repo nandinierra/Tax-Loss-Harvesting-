@@ -1,8 +1,8 @@
-# 📊 Tax Loss Harvesting Dashboard
+#  Tax Loss Harvesting Dashboard
 
 A high-performance, premium financial dashboard built to optimize tax liability through strategic asset harvesting. This application handles micro-cap assets with sub-atomic precision and provides a real-time "Before vs After" financial impact analysis.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18 or higher recommended)
@@ -28,7 +28,7 @@ Open [(https://tax-loss-harvesting-bay.vercel.app/)] in your browser to view the
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - **Precision Math Engine**: Uses BigInt fixed-point arithmetic (18 decimal places) to ensure micro-transactions (e.g., `5.04e-13`) are accurately summed with large baseline values.
 - **Micro-Value Tooltips**: Intelligent tooltips that show clean human-readable values for normal numbers but expand into full scientific precision for micro-assets.
@@ -38,17 +38,17 @@ Open [(https://tax-loss-harvesting-bay.vercel.app/)] in your browser to view the
 
 ---
 
-## 📷 Screenshots
+## Screenshots
 
-### 🌗 Dark Mode Dashboard
+### Dark Mode Dashboard
 ![Dark Mode Dashboard](./public/screenshots/dashboard_dark.png)
 
-### 🌓 Light Mode Dashboard
+###  Light Mode Dashboard
 ![Light Mode Dashboard](./public/screenshots/dashboard_light.png)
 
 ---
 
-## 📝 Assumptions & Logic
+## Assumptions & Logic
 
 - **Precision Handling**: Floating-point math is insufficient for crypto assets. All calculations are performed by scaling values by `10^18`, performing operations on `BigInt`, and unscaling for the UI.
 - **Tax Rules**: The engine assumes that Short-term losses can offset Short-term gains and Long-term losses can offset Long-term gains as per the current interactive model.
@@ -57,7 +57,7 @@ Open [(https://tax-loss-harvesting-bay.vercel.app/)] in your browser to view the
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Framework**: React 19 (JavaScript)
 - **Bundler**: Vite
